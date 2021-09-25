@@ -1,5 +1,6 @@
 # Inventory-Management
 Website link: http://shrivastavyash.pythonanywhere.com/
+
 Screenshot:
 ![Screenshot (41)](https://user-images.githubusercontent.com/78364754/134780622-18bcae08-47ee-4123-a047-93fb89ab4bbe.png)
 ![Screenshot (42)](https://user-images.githubusercontent.com/78364754/134780624-3886ab93-a9e1-4b90-b696-ee212e95a17b.png)
