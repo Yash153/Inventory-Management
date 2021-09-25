@@ -1,0 +1,51 @@
+<html>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    
+    <head>
+        <title>{% block title %} {% endblock %}</title>
+        <style>
+            *{font-size: 20px; font-family : Times New Roman}
+            .nav{
+                background-color: #e3f2fd;
+                /* background-color:snow; */
+                height: 40px;
+                margin-bottom: 10px;
+            }
+            .nav a{
+                color : #54451d;
+                text-decoration : none;
+                /* padding : 10px; */
+                padding-right: 18px;
+                padding-top: 5px;
+                
+            }
+            .nav a:hover{
+                text-shadow: 0.4px 0px 0px black;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <div class="nav">
+                <a href = "{% url 'product' %}" style="padding-left: 10px;">Product</a>
+                <a href="{% url 'location' %}">Location</a>
+                <a href = "{% url 'movement' %}" >Movement</a>
+                <a href="{% url 'movementhistory' %}">History</a>
+                <!-- <a href = "{% url 'stock' %}" >Stock</a> -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Stock
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="{% url 'stock_location' %}">Stock by location</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="{% url 'stock_product' %}">Stock by product</a></li>
+                    </ul>
+                  </li>
+                
+            </div>
+            {% block body %}{% endblock %}
+        </center>   
+    </body>
+</html>

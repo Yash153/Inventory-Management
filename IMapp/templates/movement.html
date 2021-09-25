@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block title %} Movement {% endblock  %}
+{% block body %}
+
+    <h4 style="margin-top: 15px;">Transfer</h4>
+
+    <form method="POST">
+        {% csrf_token %}
+        <label for="product" style="padding-top: 15px;">Choose product : </label>
+        <select name="product" id="product">
+            {% for p in product %}
+                <option value='{{p.id}}'>{{ p.name }}</option>
+            {% endfor %}
+        </select><br><br>
+
+        <label for="location">Choose from location : </label>
+        <select name="from_location" id="location">
+            {% for l in location %}
+                <option value='{{l.id}}'>{{ l.name }}</option>
+            {% endfor %}
+        </select><br><br>
+
+        <label for="location">Choose from location : </label>
+        <select name="to_location" id="location">
+            {% for l in location %}
+                <option value='{{l.id}}'>{{ l.name }}</option>
+            {% endfor %}
+        </select><br><br>
+
+        <label for="quantity">Quantity : </label>
+        <input type="number" id="quantity" name="quantity" min="1" required><br><br>
+
+        <input type="submit" class="btn btn-outline-success btn-sm"> <br><br>
+
+    </form>
+
+    {{ msg }}
+
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %} Add Location {% endblock %}
+{% block body %}
+
+    <div class="form-group" style="width: 50%;">
+        <form method="POST" action = "{% url 'add_location' %}">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit" value="Add Location" class="btn btn-outline-success btn-sm">
+        </form>
+    </div>
+{% endblock %}

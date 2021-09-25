@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block title %} Stock {% endblock  %}
+{% block body %}
+    <table class="table table-striped table-bordered table-hover" style="width: 70%; margin-top: 30px;">
+        <tr>
+            <th>Product ID</th>
+            <th>Product name</th>
+            <th>From</th>
+            <th>To</th>
+            <th>Quantity</th>
+            <th>Timestamp</th>
+        </tr>
+        {% for d in data %} 
+            <tr>
+                <td>{{ d.product_id }}</td>
+                <td>{{ d.product_name }}</td>
+                <td>{{ d.from_location }}</td>
+                <td>{{ d.to_location }}</td>
+                <td>{{ d.quantity }}</td>
+                <td>{{ d.dt }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
