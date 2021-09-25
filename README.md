@@ -2,14 +2,15 @@
 Website link: http://shrivastavyash.pythonanywhere.com/
 
 Screenshot:
-![Screenshot (41)](https://user-images.githubusercontent.com/78364754/134780622-18bcae08-47ee-4123-a047-93fb89ab4bbe.png)
-![Screenshot (42)](https://user-images.githubusercontent.com/78364754/134780624-3886ab93-a9e1-4b90-b696-ee212e95a17b.png)
-![Screenshot (43)](https://user-images.githubusercontent.com/78364754/134780625-54b86f20-0a2e-4aa8-95f6-e1755c62093e.png)
-![Screenshot (44)](https://user-images.githubusercontent.com/78364754/134780627-6a5d0a32-78da-4d2f-9404-fa3abc258697.png)
-![Screenshot (45)](https://user-images.githubusercontent.com/78364754/134780629-10881360-7a3b-4426-af7c-5d07259df62c.png)
-![Screenshot (38)](https://user-images.githubusercontent.com/78364754/134780633-a044c79c-e764-479b-80b3-01773f43ec11.png)
-![Screenshot (39)](https://user-images.githubusercontent.com/78364754/134780635-88c6fe85-abcc-45ba-8aa5-87ae42ce125c.png)
-![Screenshot (40)](https://user-images.githubusercontent.com/78364754/134780637-3a16336b-94cc-4326-abc0-3d9f9b83a825.png)
+![Screenshot (46)](https://user-images.githubusercontent.com/78364754/134781810-d23f008b-2657-46c0-8cb1-a59297b26430.png)
+![Screenshot (47)](https://user-images.githubusercontent.com/78364754/134781815-473b850a-98b4-4571-8771-11f83a62c03c.png)
+![Screenshot (48)](https://user-images.githubusercontent.com/78364754/134781817-b3c6c59a-c1bd-446e-90f7-7e78922fc720.png)
+![Screenshot (49)](https://user-images.githubusercontent.com/78364754/134781818-feb4f57b-3465-498d-acf2-73353d856fa6.png)
+![Screenshot (50)](https://user-images.githubusercontent.com/78364754/134781820-3286ba3d-ae16-44ff-a954-50b99a1ac21c.png)
+![Screenshot (51)](https://user-images.githubusercontent.com/78364754/134781821-a6817221-f3a5-4a45-9c53-5fb000f53f59.png)
+![Screenshot (52)](https://user-images.githubusercontent.com/78364754/134781823-a70763c3-30af-46f2-9661-6d9decf7874f.png)
+![Screenshot (53)](https://user-images.githubusercontent.com/78364754/134781824-b0adac7e-e788-429d-a84a-d7a7ef07d6d3.png)
+
 
 Demo video
 
